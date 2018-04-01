@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import global.PivtrumGlobalData;
 import pivtrum.PivtrumPeer;
 import pivtrum.PivtrumPeerData;
@@ -28,13 +31,13 @@ import pivx.org.pivxwallet.ui.wallet_activity.WalletActivity;
 import pivx.org.pivxwallet.utils.DialogBuilder;
 import pivx.org.pivxwallet.utils.DialogsUtil;
 
-import static global.PivtrumGlobalData.FURSZY_TESTNET_SERVER;
 
 /**
  * Created by Neoperol on 6/27/17.
  */
 
 public class StartNodeActivity extends BaseActivity {
+    private Logger log = LoggerFactory.getLogger(StartNodeActivity.class);
 
     private Button openDialog;
     private Button btnSelectNode;
@@ -64,12 +67,9 @@ public class StartNodeActivity extends BaseActivity {
                             adapter.clear();
                             hosts = new ArrayList<String>();
                             trustedNodes.add(pivtrumPeerData);
-                            for (PivtrumPeerData trustedNode : trustedNodes) {
-                                if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)) {
-                                    hosts.add("pivt.furszy.tech");
-                                } else
-                                    hosts.add(trustedNode.getHost());
-                            }
+                            for (PivtrumPeerData trustedNode : trustedNodes)
+                                hosts.add(trustedNode.getHost());
+
                             adapter.addAll(hosts);
                             dropdown.setAdapter(adapter);
                             dropdown.setSelection(hosts.size() - 1);
@@ -83,8 +83,12 @@ public class StartNodeActivity extends BaseActivity {
         findViewById(R.id.btn_default).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Check this..
-                pivxApplication.setTrustedServer(null);
+                List<PivtrumPeerData> nodes = PivtrumGlobalData.listTrustedHosts();
+                if (!nodes.isEmpty())
+                    pivxApplication.setTrustedServer(nodes.get(0));
+                else
+                    log.error("List of trusted nodes is empty, can't reset to default state.");
+
                 pivxApplication.stopBlockchain();
                 // now that everything is good, start the service
                 new Handler().postDelayed(new Runnable() {
@@ -127,21 +131,16 @@ public class StartNodeActivity extends BaseActivity {
 
         // add connected node if it's not on the list
         PivtrumPeerData pivtrumPeer = pivxApplication.getAppConf().getTrustedNode();
-        if (pivtrumPeer!=null && !pivtrumPeer.getHost().equals(FURSZY_TESTNET_SERVER)){
+        if (pivtrumPeer != null)
             trustedNodes.add(pivtrumPeer);
-        }
 
         int selectionPos = 0;
-
         for (int i=0;i<trustedNodes.size();i++){
             PivtrumPeerData trustedNode = trustedNodes.get(i);
             if (pivtrumPeer!=null && pivtrumPeer.getHost().equals(trustedNode)){
                 selectionPos = i;
             }
-            if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)){
-                hosts.add("pivt.furszy.tech");
-            }else
-                hosts.add(trustedNode.getHost());
+            hosts.add(trustedNode.getHost());
         }
         adapter = new ArrayAdapter<String>(this, R.layout.simple_spinner_dropdown_item,hosts){
             @Override

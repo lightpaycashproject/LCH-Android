@@ -277,7 +277,7 @@ public class PivxWalletService extends Service{
                             .setContentIntent(openPendingIntent);
                     nm.notify(NOT_COINS_RECEIVED, mBuilder.build());
                 } else {
-                    log.error("transaction with a value lesser than zero arrives..");
+                    log.error("transaction with a value lesser than zero arrives ({})", amount.getValue());
                 }
 
             }catch (Exception e){

@@ -115,9 +115,7 @@ public class DialogsUtil {
                     final String tcpPortStr = editTcp.getText().toString();
                     final String sslPortStr = editSsl.getText().toString();
                     int tcpPort = PivxContext.NETWORK_PARAMETERS.getPort();
-                    if (host.equals(PivtrumGlobalData.FURSZY_TESTNET_SERVER)){
-                        tcpPort = 8443;
-                    }
+
                     int sslPort = 0;
                     if (tcpPortStr.length() > 0) {
                         tcpPort = Integer.valueOf(tcpPortStr);

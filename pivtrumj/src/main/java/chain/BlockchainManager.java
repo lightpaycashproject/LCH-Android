@@ -44,7 +44,6 @@ import global.WalletConfiguration;
 import pivtrum.PivtrumPeerData;
 import wallet.WalletManager;
 
-import static global.PivtrumGlobalData.FURSZY_TESTNET_SERVER;
 
 public class BlockchainManager {
 
@@ -250,8 +249,7 @@ public class BlockchainManager {
                 final String trustedPeerHost = conf.getTrustedNodeHost();
                 final boolean hasTrustedPeer = trustedPeerHost != null;
 
-                final boolean connectTrustedPeerOnly = true;//hasTrustedPeer && config.getTrustedPeerOnly();
-                peerGroup.setMaxConnections(connectTrustedPeerOnly ? 1 : maxConnectedPeers);
+                peerGroup.setMaxConnections(maxConnectedPeers);
                 peerGroup.setConnectTimeoutMillis(conf.getPeerTimeoutMs());
                 peerGroup.setPeerDiscoveryTimeoutMillis(conf.getPeerDiscoveryTimeoutMs());
 
@@ -285,31 +283,21 @@ public class BlockchainManager {
                             boolean needsTrimPeersWorkaround = false;
 
                             if (hasTrustedPeer) {
-                                LOG.info("trusted peer '" + trustedPeerHost + "'" + (connectTrustedPeerOnly ? " only" : ""));
+                                LOG.info("trusted peer '" + trustedPeerHost + "'");
                                 final InetSocketAddress addr;
-                                if (trustedPeerHost.equals(FURSZY_TESTNET_SERVER) && !conf.isTest()){
-                                    addr = new InetSocketAddress(trustedPeerHost, 8443);
-                                }else {
-                                    addr = new InetSocketAddress(trustedPeerHost, conf.getNetworkParams().getPort());
-                                }
+                                addr = new InetSocketAddress(trustedPeerHost, conf.getNetworkParams().getPort());
 
                                 if (addr.getAddress() != null) {
                                     peers.add(addr);
                                     needsTrimPeersWorkaround = true;
                                 }
-                                /*if (conf.isTest()){
-                                    // add one more peer to validate tx
-                                    peers.add(new InetSocketAddress(FURSZY_TESTNET_SERVER,6444));
-                                    needsTrimPeersWorkaround = false;
-                                }*/
                             }else {
                                 for (PivtrumPeerData pivtrumPeerData : PivtrumGlobalData.listTrustedHosts()) {
                                     peers.add(new InetSocketAddress(pivtrumPeerData.getHost(), pivtrumPeerData.getTcpPort()));
                                 }
                             }
 
-                            if (!connectTrustedPeerOnly)
-                                peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(services, timeoutValue, timeoutUnit)));
+                            peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(services, timeoutValue, timeoutUnit)));
 
                             // workaround because PeerGroup will shuffle peers
                             if (needsTrimPeersWorkaround)
