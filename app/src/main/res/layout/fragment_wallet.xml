@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/bgWhite"
-    tools:context="pivx.org.pivxwallet.ui.base.BaseDrawerActivity">
+    tools:context="colx.org.colxwallet.ui.base.BaseDrawerActivity">
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,7 +28,7 @@
             <fragment
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:name="pivx.org.pivxwallet.ui.wallet_activity.TransactionsFragmentBase"
+                android:name="colx.org.colxwallet.ui.wallet_activity.TransactionsFragmentBase"
                 android:id="@+id/transactions_fragment"
                 android:paddingBottom="66dp"
                 />
@@ -50,8 +50,8 @@
                 app:menu_shadowRadius="4dp"
                 app:menu_shadowXOffset="1dp"
                 app:menu_shadowYOffset="3dp"
-                app:menu_colorNormal="@color/green"
-                app:menu_colorPressed="@color/lightGreen1"
+                app:menu_colorNormal="@color/bgPurple"
+                app:menu_colorPressed="@color/bgPurple"
                 app:menu_colorRipple="#99FFFFFF"
                 app:menu_animationDelayPerItem="60"
                 app:menu_icon="@drawable/fab_add"
@@ -88,8 +88,8 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_fab_recieve"
                     app:fab_size="mini"
-                    app:fab_colorNormal="@color/colorPrimary"
-                    app:fab_colorPressed="@color/colorPrimary"
+                    app:fab_colorNormal="#000000"
+                    app:fab_colorPressed="#000000"
                     app:fab_label="@string/btn_request" />
 
                 <com.github.clans.fab.FloatingActionButton
@@ -98,8 +98,8 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_send_action"
                     app:fab_size="mini"
-                    app:fab_colorNormal="@color/colorPrimary"
-                    app:fab_colorPressed="@color/colorPrimary"
+                    app:fab_colorNormal="#000000"
+                    app:fab_colorPressed="#000000"
                     app:fab_label="@string/btn_send" />
 
             </com.github.clans.fab.FloatingActionMenu>
