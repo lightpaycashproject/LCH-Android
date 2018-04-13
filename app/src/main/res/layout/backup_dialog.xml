@@ -42,10 +42,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/txt_ok"
         android:text="OK"
+        android:background="#283029"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:textColor="#50e3c2"
+        android:textColor="#ffffff"
         />
 
 </LinearLayout>
