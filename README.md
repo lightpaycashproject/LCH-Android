@@ -1,8 +1,8 @@
-# PIVX-Wallet
+# COLX-Wallet
 
-![alt text](https://github.com/PIVX-Project/PIVX-Android/blob/master/banner/Feature%20Image.jpg)
+![alt text](https://github.com/ColossusCoinXT/COLX-Android/blob/master/banner/Feature%20image.jpg)
 
-Welcome to the PIVX mobile wallet for android!
+Welcome to the COLX mobile wallet for android!
 
 
 This project contains several sub-projects:
