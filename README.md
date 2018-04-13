@@ -1,4 +1,4 @@
-# PIVX-Wallet
+# COLX-Wallet
 
 ![alt text](https://github.com/ColossusCoinXT/COLX-Android/blob/master/banner/Feature%20image.jpg)
 
