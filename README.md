@@ -5,6 +5,8 @@
 Welcome to the COLX mobile wallet for android!
 
 
+
+
 This project contains several sub-projects:
 
 app: The Android app itself. This is probably what you're searching for.
