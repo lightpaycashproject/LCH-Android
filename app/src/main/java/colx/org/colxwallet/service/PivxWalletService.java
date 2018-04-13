@@ -49,7 +49,7 @@ import chain.BlockchainManager;
 import chain.BlockchainState;
 import chain.Impediment;
 import pivtrum.listeners.AddressListener;
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.PivxContext;
 import colx.org.colxwallet.module.PivxModuleImp;
@@ -85,7 +85,7 @@ public class PivxWalletService extends Service{
 
     private Logger log = LoggerFactory.getLogger(PivxWalletService.class);
 
-    private PivxApplication pivxApplication;
+    private ColxApplication pivxApplication;
     private PivxModuleImp module;
     //private PivtrumPeergroup pivtrumPeergroup;
     private BlockchainManager blockchainManager;
@@ -323,7 +323,7 @@ public class PivxWalletService extends Service{
             nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
             broadcastManager = LocalBroadcastManager.getInstance(this);
             // Pivx
-            pivxApplication = PivxApplication.getInstance();
+            pivxApplication = ColxApplication.getInstance();
             module = (PivxModuleImp) pivxApplication.getModule();
             blockchainManager = module.getBlockchainManager();
             // connect to pivtrum node

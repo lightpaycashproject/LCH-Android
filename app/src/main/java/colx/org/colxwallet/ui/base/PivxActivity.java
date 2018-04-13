@@ -9,7 +9,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.PivxModule;
 import colx.org.colxwallet.service.IntentsConstants;
@@ -26,7 +26,7 @@ import static colx.org.colxwallet.service.IntentsConstants.ACTION_TRUSTED_PEER_C
 
 public class PivxActivity extends AppCompatActivity {
 
-    protected PivxApplication pivxApplication;
+    protected ColxApplication pivxApplication;
     protected PivxModule pivxModule;
 
     protected LocalBroadcastManager localBroadcastManager;
@@ -52,7 +52,7 @@ public class PivxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        pivxApplication = PivxApplication.getInstance();
+        pivxApplication = ColxApplication.getInstance();
         pivxModule = pivxApplication.getModule();
         localBroadcastManager = LocalBroadcastManager.getInstance(this);
     }

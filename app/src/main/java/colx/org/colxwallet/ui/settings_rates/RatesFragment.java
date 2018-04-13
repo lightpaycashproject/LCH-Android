@@ -12,7 +12,7 @@ import org.pivxj.core.Peer;
 
 import java.util.List;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.rate.db.PivxRate;
 import colx.org.colxwallet.ui.base.BaseRecyclerFragment;

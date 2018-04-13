@@ -66,12 +66,12 @@ import static colx.org.colxwallet.utils.AndroidUtils.shareText;
         mailTo = PivxContext.REPORT_EMAIL, // my email here
         mode = ReportingInteractionMode.TOAST,
         resToastText = R.string.crash_toast_text)
-public class PivxApplication extends Application implements ContextWrapper {
+public class ColxApplication extends Application implements ContextWrapper {
 
     private static Logger log;
 
     /** Singleton */
-    private static PivxApplication instance;
+    private static ColxApplication instance;
     public static final long TIME_CREATE_APPLICATION = System.currentTimeMillis();
     private long lastTimeRequestBackup;
 
@@ -84,7 +84,7 @@ public class PivxApplication extends Application implements ContextWrapper {
     private ActivityManager activityManager;
     private PackageInfo info;
 
-    public static PivxApplication getInstance() {
+    public static ColxApplication getInstance() {
         return instance;
     }
 
@@ -123,7 +123,7 @@ public class PivxApplication extends Application implements ContextWrapper {
             } catch (final IOException x) {
                 log.info("problem writing attachment", x);
             }
-            shareText(PivxApplication.this,"Pivx wallet crash", "Unexpected crash", attachments);
+            shareText(ColxApplication.this,"Pivx wallet crash", "Unexpected crash", attachments);
         }
     };
 
@@ -133,7 +133,7 @@ public class PivxApplication extends Application implements ContextWrapper {
         instance = this;
         try {
             initLogging();
-            log = LoggerFactory.getLogger(PivxApplication.class);
+            log = LoggerFactory.getLogger(ColxApplication.class);
             PackageManager manager = getPackageManager();
             info = manager.getPackageInfo(this.getPackageName(), 0);
             activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);

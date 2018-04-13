@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.VideoView;
 import android.os.Handler;
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.start_activity.StartActivity;
 import colx.org.colxwallet.ui.wallet_activity.WalletActivity;
@@ -45,7 +45,7 @@ public class SplashActivity extends AppCompatActivity {
         videoView = (VideoView) findViewById(R.id.video_view);
         imageView = (ImageView) findViewById(R.id.imageView);
 //        Uri video;
-//        if(PivxApplication.getInstance().getAppConf().isSplashSoundEnabled()) {
+//        if(ColxApplication.getInstance().getAppConf().isSplashSoundEnabled()) {
 //
 //            //  video = Uri.parse("android.resource://" + getPackageName() + "/"
 //          //      + R.raw.splash_video); }
@@ -85,7 +85,7 @@ public class SplashActivity extends AppCompatActivity {
 
     private void jump() {
 
-        if (PivxApplication.getInstance().getAppConf().isAppInit()){
+        if (ColxApplication.getInstance().getAppConf().isAppInit()){
             Intent intent = new Intent(this, WalletActivity.class);
             startActivity(intent);
         }else {

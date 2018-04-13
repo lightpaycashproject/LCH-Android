@@ -38,7 +38,7 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.TimeZone;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.module.PivxContext;
 
 
@@ -227,7 +227,7 @@ public class CrashReporter {
 					p.lastUpdateTime));
 	}
 
-	public static void appendApplicationInfo(final Appendable report, final PivxApplication application) throws IOException {
+	public static void appendApplicationInfo(final Appendable report, final ColxApplication application) throws IOException {
 
 		final PackageInfo pi = (PackageInfo) application.getPackageInfo();
 		final Calendar calendar = new GregorianCalendar(UTC);

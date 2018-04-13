@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.module.PivxModule;
 
 /**
@@ -15,13 +15,13 @@ import colx.org.colxwallet.module.PivxModule;
 
 public class BaseFragment extends Fragment {
 
-    protected PivxApplication pivxApplication;
+    protected ColxApplication pivxApplication;
     protected PivxModule pivxModule;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        pivxApplication = PivxApplication.getInstance();
+        pivxApplication = ColxApplication.getInstance();
         pivxModule = pivxApplication.getModule();
     }
 

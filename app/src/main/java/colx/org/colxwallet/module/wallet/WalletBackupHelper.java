@@ -5,7 +5,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.module.PivxContext;
 import global.utils.Iso8601Format;
 
@@ -24,7 +24,7 @@ public class WalletBackupHelper {
         final DateFormat dateFormat = Iso8601Format.newDateFormat();
         dateFormat.setTimeZone(TimeZone.getDefault());
 
-        String appName = PivxApplication.getInstance().getVersionName();
+        String appName = ColxApplication.getInstance().getVersionName();
 
         for (int i = 0; true; i++) {
             final StringBuilder filename = new StringBuilder(PivxContext.Files.getExternalWalletBackupFileName(appName));

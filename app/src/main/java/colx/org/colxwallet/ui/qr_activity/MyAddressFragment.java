@@ -22,7 +22,7 @@ import com.google.zxing.WriterException;
 import org.pivxj.core.Address;
 import org.pivxj.uri.PivxURI;
 
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.PivxModule;
 
@@ -55,7 +55,7 @@ public class MyAddressFragment extends Fragment implements View.OnClickListener 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        module = PivxApplication.getInstance().getModule();
+        module = ColxApplication.getInstance().getModule();
         root = inflater.inflate(R.layout.my_address,null);
         txt_address = (TextView) root.findViewById(R.id.txt_address);
         btn_share = (Button) root.findViewById(R.id.btn_share);

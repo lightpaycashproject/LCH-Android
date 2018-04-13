@@ -27,7 +27,7 @@ import java.io.Writer;
 import java.util.ArrayList;
 
 import global.utils.Io;
-import colx.org.colxwallet.PivxApplication;
+import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.utils.CrashReporter;
 
@@ -53,11 +53,11 @@ public class CrashPopupActivity extends AppCompatActivity implements View.OnClic
     private TextView txt_send;
     private TextView txt_cancel;
 
-    private PivxApplication pivxApplication;
+    private ColxApplication pivxApplication;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        pivxApplication = PivxApplication.getInstance();
+        pivxApplication = ColxApplication.getInstance();
         setTheme(R.style.AppTheme_Dialog);
         setContentView(R.layout.report_issue_activity_dialog);
         this.setFinishOnTouchOutside(false);
