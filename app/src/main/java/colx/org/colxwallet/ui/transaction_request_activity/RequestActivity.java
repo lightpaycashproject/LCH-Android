@@ -24,10 +24,10 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.NetworkParameters;
-import org.pivxj.core.Transaction;
-import org.pivxj.uri.PivxURI;
+import org.colxj.core.Coin;
+import org.colxj.core.NetworkParameters;
+import org.colxj.core.Transaction;
+import org.colxj.uri.PivxURI;
 
 import java.util.ArrayList;
 import java.util.List;

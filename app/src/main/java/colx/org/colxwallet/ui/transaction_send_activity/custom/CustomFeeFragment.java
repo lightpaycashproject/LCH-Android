@@ -14,8 +14,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.Transaction;
+import org.colxj.core.Coin;
+import org.colxj.core.Transaction;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.base.BaseFragment;

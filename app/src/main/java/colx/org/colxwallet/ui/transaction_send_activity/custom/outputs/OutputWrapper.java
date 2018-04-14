@@ -1,6 +1,6 @@
 package colx.org.colxwallet.ui.transaction_send_activity.custom.outputs;
 
-import org.pivxj.core.Coin;
+import org.colxj.core.Coin;
 
 import java.io.Serializable;
 

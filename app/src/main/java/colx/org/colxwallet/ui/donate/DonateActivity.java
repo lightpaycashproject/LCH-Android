@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.InsufficientMoneyException;
-import org.pivxj.core.Transaction;
+import org.colxj.core.Coin;
+import org.colxj.core.InsufficientMoneyException;
+import org.colxj.core.Transaction;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.PivxContext;

@@ -3,10 +3,10 @@ package colx.org.colxwallet.module;
 import android.os.Environment;
 import android.text.format.DateUtils;
 
-import org.pivxj.core.Context;
-import org.pivxj.core.NetworkParameters;
-import org.pivxj.params.MainNetParams;
-import org.pivxj.params.TestNet3Params;
+import org.colxj.core.Context;
+import org.colxj.core.NetworkParameters;
+import org.colxj.params.MainNetParams;
+import org.colxj.params.TestNet3Params;
 
 import java.io.File;
 

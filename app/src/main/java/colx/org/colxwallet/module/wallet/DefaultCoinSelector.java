@@ -1,13 +1,13 @@
 package colx.org.colxwallet.module.wallet;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.NetworkParameters;
-import org.pivxj.core.Sha256Hash;
-import org.pivxj.core.Transaction;
-import org.pivxj.core.TransactionConfidence;
-import org.pivxj.core.TransactionOutput;
-import org.pivxj.wallet.CoinSelection;
-import org.pivxj.wallet.CoinSelector;
+import org.colxj.core.Coin;
+import org.colxj.core.NetworkParameters;
+import org.colxj.core.Sha256Hash;
+import org.colxj.core.Transaction;
+import org.colxj.core.TransactionConfidence;
+import org.colxj.core.TransactionOutput;
+import org.colxj.wallet.CoinSelection;
+import org.colxj.wallet.CoinSelector;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

@@ -29,15 +29,15 @@ import android.widget.ViewFlipper;
 
 import com.google.zxing.WriterException;
 
-import org.pivxj.core.Address;
-import org.pivxj.core.Coin;
-import org.pivxj.core.InsufficientMoneyException;
-import org.pivxj.core.NetworkParameters;
-import org.pivxj.core.Transaction;
-import org.pivxj.core.TransactionInput;
-import org.pivxj.core.TransactionOutput;
-import org.pivxj.uri.PivxURI;
-import org.pivxj.wallet.Wallet;
+import org.colxj.core.Address;
+import org.colxj.core.Coin;
+import org.colxj.core.InsufficientMoneyException;
+import org.colxj.core.NetworkParameters;
+import org.colxj.core.Transaction;
+import org.colxj.core.TransactionInput;
+import org.colxj.core.TransactionOutput;
+import org.colxj.uri.PivxURI;
+import org.colxj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,9 +1,9 @@
 /*
 package org.pivtrum;
 
-import org.pivxj.core.Address;
-import org.pivxj.core.Coin;
-import org.pivxj.utils.MonetaryFormat;
+import org.colxj.core.Address;
+import org.colxj.core.Coin;
+import org.colxj.utils.MonetaryFormat;
 import org.furszy.client.exceptions.ConnectionFailureException;
 import org.junit.Test;
 import org.pivtrum.imp.AddressStoreImp;

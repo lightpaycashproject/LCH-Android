@@ -1,7 +1,7 @@
 package colx.org.colxwallet.ui.transaction_send_activity.custom.inputs;
 
-import org.pivxj.core.Sha256Hash;
-import org.pivxj.core.TransactionOutput;
+import org.colxj.core.Sha256Hash;
+import org.colxj.core.TransactionOutput;
 
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
 package pivtrum;
 
-import org.pivxj.core.Address;
-import org.pivxj.core.CoinDefinition;
+import org.colxj.core.Address;
+import org.colxj.core.CoinDefinition;
 import org.furszy.client.IoManager;
 import org.furszy.client.exceptions.ConnectionFailureException;
 import org.slf4j.Logger;

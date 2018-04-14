@@ -21,9 +21,9 @@ import android.widget.Toast;
 
 import com.github.clans.fab.FloatingActionMenu;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.Transaction;
-import org.pivxj.uri.PivxURI;
+import org.colxj.core.Coin;
+import org.colxj.core.Transaction;
+import org.colxj.uri.PivxURI;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

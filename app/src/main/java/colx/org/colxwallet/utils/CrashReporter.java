@@ -14,9 +14,9 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.base.Throwables;
 
-import org.pivxj.core.Transaction;
-import org.pivxj.core.TransactionOutput;
-import org.pivxj.wallet.Wallet;
+import org.colxj.core.Transaction;
+import org.colxj.core.TransactionOutput;
+import org.colxj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

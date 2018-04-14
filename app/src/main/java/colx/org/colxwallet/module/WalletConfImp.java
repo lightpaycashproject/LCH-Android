@@ -2,8 +2,8 @@ package colx.org.colxwallet.module;
 
 import android.content.SharedPreferences;
 
-import org.pivxj.core.Context;
-import org.pivxj.core.NetworkParameters;
+import org.colxj.core.Context;
+import org.colxj.core.NetworkParameters;
 
 import global.WalletConfiguration;
 import colx.org.colxwallet.utils.Configurations;

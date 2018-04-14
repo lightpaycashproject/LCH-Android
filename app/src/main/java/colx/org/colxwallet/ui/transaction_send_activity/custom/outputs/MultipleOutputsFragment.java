@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.pivxj.core.Coin;
-import org.pivxj.uri.PivxURI;
+import org.colxj.core.Coin;
+import org.colxj.uri.PivxURI;
 
 import java.util.ArrayList;
 import java.util.List;

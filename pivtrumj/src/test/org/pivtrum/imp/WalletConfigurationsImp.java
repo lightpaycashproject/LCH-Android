@@ -1,8 +1,8 @@
 package org.pivtrum.imp;
 
-import org.pivxj.core.Context;
-import org.pivxj.core.NetworkParameters;
-import org.pivxj.params.TestNet3Params;
+import org.colxj.core.Context;
+import org.colxj.core.NetworkParameters;
+import org.colxj.params.TestNet3Params;
 
 import global.WalletConfiguration;
 

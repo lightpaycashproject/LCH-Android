@@ -1,17 +1,17 @@
 package colx.org.colxwallet.module;
 
-import org.pivxj.core.Address;
-import org.pivxj.core.Coin;
-import org.pivxj.core.InsufficientMoneyException;
-import org.pivxj.core.Peer;
-import org.pivxj.core.Sha256Hash;
-import org.pivxj.core.Transaction;
-import org.pivxj.core.TransactionInput;
-import org.pivxj.core.TransactionOutput;
-import org.pivxj.crypto.DeterministicKey;
-import org.pivxj.crypto.MnemonicException;
-import org.pivxj.wallet.DeterministicKeyChain;
-import org.pivxj.wallet.Wallet;
+import org.colxj.core.Address;
+import org.colxj.core.Coin;
+import org.colxj.core.InsufficientMoneyException;
+import org.colxj.core.Peer;
+import org.colxj.core.Sha256Hash;
+import org.colxj.core.Transaction;
+import org.colxj.core.TransactionInput;
+import org.colxj.core.TransactionOutput;
+import org.colxj.crypto.DeterministicKey;
+import org.colxj.crypto.MnemonicException;
+import org.colxj.wallet.DeterministicKeyChain;
+import org.colxj.wallet.Wallet;
 
 import java.io.File;
 import java.io.IOException;

@@ -19,8 +19,8 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.pivxj.core.Address;
-import org.pivxj.uri.PivxURI;
+import org.colxj.core.Address;
+import org.colxj.uri.PivxURI;
 
 import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;

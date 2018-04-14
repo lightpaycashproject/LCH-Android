@@ -11,12 +11,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.pivxj.core.Coin;
-import org.pivxj.core.Transaction;
-import org.pivxj.core.TransactionInput;
-import org.pivxj.core.TransactionOutPoint;
-import org.pivxj.core.TransactionOutput;
-import org.pivxj.script.Script;
+import org.colxj.core.Coin;
+import org.colxj.core.Transaction;
+import org.colxj.core.TransactionInput;
+import org.colxj.core.TransactionOutPoint;
+import org.colxj.core.TransactionOutput;
+import org.colxj.script.Script;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
