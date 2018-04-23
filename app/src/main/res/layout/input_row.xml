@@ -34,7 +34,7 @@
             android:hint="@string/no_data_available"
             android:textStyle="bold"
             android:textColor="@color/bgPurple"
-            android:textSize="16sp" />
+            android:textSize="16sp" android:fontFamily="@font/ocraextended"/>
 
 
         <TextView
@@ -45,7 +45,7 @@
             android:lines="1"
             tools:text="DAE9XiuuCYgbGC2aTEZT8jnGStv3eWrWDw"
             android:textColor="@color/bgPurple"
-            android:textSize="13sp" />
+            android:textSize="13sp" android:fontFamily="@font/ocraextended"/>
 
 
         <RelativeLayout
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 tools:text="45 Confirmations"
-                android:textSize="13sp" />
+                android:textSize="13sp" android:fontFamily="@font/ocraextended"/>
 
             <TextView
                 android:id="@+id/txt_date"
@@ -67,7 +67,7 @@
                 android:maxLines="1"
                 tools:text="24/09/2017"
                 android:layout_alignParentEnd="true"
-                android:textSize="13sp" />
+                android:textSize="13sp" android:fontFamily="@font/ocraextended"/>
 
         </RelativeLayout>
 

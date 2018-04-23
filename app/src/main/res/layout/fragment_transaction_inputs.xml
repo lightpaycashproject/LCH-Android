@@ -20,7 +20,8 @@
             android:layout_marginBottom="10dp"
             android:text = "@string/title_address"
             android:textColor = "#757575"
-            android:textSize = "14sp" />
+            android:textSize = "14sp"
+             android:fontFamily="@font/ocraextended"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
@@ -45,7 +46,9 @@
                 android:text = ""
                 android:textColor = "#434343"
                 android:textSize = "14.5sp"
-                android:layout_alignParentBottom="true" />
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/ocraextended"
+                />
 
 
             <ImageButton
@@ -67,7 +70,9 @@
             android:text = "@string/title_description"
             android:layout_marginBottom="10dp"
             android:textColor = "#757575"
-            android:textSize = "14sp" />
+            android:textSize = "14sp"
+            android:fontFamily="@font/ocraextended"
+            />
 
         <EditText
             android:id = "@+id/edit_memo"
@@ -83,7 +88,9 @@
             android:hint="@string/set_description"
             android:text = ""
             android:textColor = "#434343"
-            android:textSize = "17.5sp" />
+            android:textSize = "17.5sp"
+            android:fontFamily="@font/ocraextended"
+            />
 
     </LinearLayout>
 </RelativeLayout>

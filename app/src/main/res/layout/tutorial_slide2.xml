@@ -35,7 +35,8 @@
             android:textColor="@android:color/white"
             android:textAllCaps="true"
             android:textSize="@dimen/text_title"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/ocraextended"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -48,7 +49,8 @@
             android:text="@string/desc_slide2"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/text_title" />
+            android:textSize="@dimen/text_title"
+            android:fontFamily="@font/ocraextended"/>
 
     </LinearLayout>
 

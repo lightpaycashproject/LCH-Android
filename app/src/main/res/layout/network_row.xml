@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:text="Address"
             android:textColor="@color/bgPurple"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:fontFamily="@font/ocraextended"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +41,8 @@
                     android:layout_height="wrap_content"
                     android:text="Network"
                     android:textColor="@color/mainText"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:fontFamily="@font/ocraextended"/>
 
                 <TextView
                     android:id="@+id/protocol"
@@ -48,7 +50,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/mainText"
                     android:text="Protocol"
-                    android:textSize="14sp"/>
+                    android:textSize="14sp"
+                    android:fontFamily="@font/ocraextended"/>
 
             </LinearLayout>
             <LinearLayout
@@ -65,7 +68,8 @@
                     android:layout_height="wrap_content"
                     android:text="Blocks"
                     android:textColor="@color/mainText"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:fontFamily="@font/ocraextended"/>
 
                 <TextView
                     android:id="@+id/speed"
@@ -75,7 +79,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/mainText"
                     android:text="Speed"
-                    android:textSize="14sp"/>
+                    android:textSize="14sp"
+                    android:fontFamily="@font/ocraextended"/>
 
             </LinearLayout>
 

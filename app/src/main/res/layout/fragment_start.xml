@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="@color/bgPurple"
+    android:background="#2c7272"
     tools:context="colx.org.colxwallet.ui.base.BaseDrawerActivity">
 
 
@@ -39,6 +39,7 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             style="@style/MessageTextStart"
+            android:fontFamily="@font/ocraextended"
             />
 
 
@@ -65,7 +66,9 @@
             android:text="@string/btn_create_wallet"
             android:textColor="#283029"
             android:textSize="14sp"
-            android:translationZ="2dp" />
+            android:translationZ="2dp"
+            android:fontFamily="@font/ocraextended"
+            />
 
         <Button
             android:layout_width="match_parent"
@@ -79,6 +82,7 @@
             android:id="@+id/btnRestore"
             android:textSize="14sp"
             android:textColor = "@color/textColorWhite"
+            android:fontFamily="@font/ocraextended"
             />
 
 

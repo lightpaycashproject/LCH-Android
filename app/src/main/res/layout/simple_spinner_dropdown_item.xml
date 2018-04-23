@@ -12,4 +12,5 @@
     android:paddingStart="4dp"
     android:paddingEnd="4dp"
     tools:text="192.186.34.21"
-    android:ellipsize="marquee" />
+    android:ellipsize="marquee"
+    android:fontFamily="@font/ocraextended"/>

@@ -26,7 +26,8 @@
         android:paddingTop="24dp"
         android:paddingBottom="24dp"
         android:paddingEnd="16dp"
-        android:paddingStart="16dp"/>
+        android:paddingStart="16dp"
+        android:fontFamily="@font/ocraextended"/>
 
 
     <TextView
@@ -42,7 +43,8 @@
         android:scrollbars="vertical"
         android:paddingBottom="24dp"
         android:paddingEnd="16dp"
-        android:paddingStart="16dp"/>
+        android:paddingStart="16dp"
+        android:fontFamily="@font/ocraextended"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,7 +78,8 @@
             android:layout_gravity="bottom"
             android:text="@string/button_ok"
             android:textColor="@color/textColorPurple"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:fontFamily="@font/ocraextended"/>
 
     </LinearLayout>
 

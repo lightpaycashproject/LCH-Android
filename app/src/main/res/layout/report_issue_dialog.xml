@@ -20,7 +20,8 @@
             android:layout_marginBottom="6dp"
             android:textColor="#000"
             tools:text=""
-            android:layout_marginTop="6dp" />
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/ocraextended"/>
 
         <EditText
             android:id="@+id/report_issue_dialog_description"
@@ -31,7 +32,8 @@
             android:textSize="13sp"
             android:textColor="#898989"
             android:hint="@string/report_issue_dialog_description"
-            android:inputType="text|textCapSentences|textMultiLine" />
+            android:inputType="text|textCapSentences|textMultiLine"
+            android:fontFamily="@font/ocraextended"/>
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_device_info"
@@ -41,7 +43,8 @@
             android:layout_marginTop="6dp"
             android:textSize="14sp"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_device_info" />
+            android:text="@string/report_issue_dialog_collect_device_info"
+            android:fontFamily="@font/ocraextended"/>
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_application_log"
@@ -51,7 +54,8 @@
             android:layout_marginTop="6dp"
             android:textSize="14sp"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_application_log" />
+            android:text="@string/report_issue_dialog_collect_application_log"
+            android:fontFamily="@font/ocraextended"/>
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_wallet_dump"
@@ -61,7 +65,8 @@
             android:layout_marginTop="6dp"
             android:textSize="14sp"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_wallet_dump" />
+            android:text="@string/report_issue_dialog_collect_wallet_dump"
+            android:fontFamily="@font/ocraextended"/>
 
         <CheckBox
             android:id="@+id/report_issue_dialog_collect_installed_packages"
@@ -71,7 +76,8 @@
             android:textSize="14sp"
             android:layout_marginTop="6dp"
             android:checked="false"
-            android:text="@string/report_issue_dialog_collect_installed_packages" />
+            android:text="@string/report_issue_dialog_collect_installed_packages"
+            android:fontFamily="@font/ocraextended"/>
 
 
         <CheckBox
@@ -82,7 +88,8 @@
             android:textSize="14sp"
             android:layout_marginTop="6dp"
             android:checked="true"
-            android:text="@string/report_issue_dialog_collect_db_data" />
+            android:text="@string/report_issue_dialog_collect_db_data"
+            android:fontFamily="@font/ocraextended"/>
     </LinearLayout>
 
 </ScrollView>

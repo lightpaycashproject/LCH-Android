@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@drawable/bg_toolbar_login"
+        android:background="#1b3939"
         app:theme="@style/ToolBarStyle"
         app:popupTheme="@style/AppTheme" />
     <FrameLayout android:id="@+id/content"

@@ -38,7 +38,8 @@
                 android:paddingEnd="9dp"
                 android:paddingStart="9dp"
                 android:textSize="14sp"
-                tools:text="1p2csad3113rgdv223r31edwqsa213dw213caxsad23" />
+                tools:text="1p2csad3113rgdv223r31edwqsa213dw213caxsad23"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -61,9 +62,11 @@
             android:text="@string/copy"
             android:textAlignment="center"
             android:textColor="@color/bgPurple"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:fontFamily="@font/ocraextended"/>
 
         <Button
+            android:fontFamily="@font/ocraextended"
             android:id="@+id/btn_share"
             android:layout_weight="1"
             android:layout_width="0dp"

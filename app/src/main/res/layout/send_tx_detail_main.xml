@@ -27,7 +27,8 @@
             android:maxHeight="40dp"
             android:padding="7dp"
             android:text="@string/confirm"
-            android:textColor="@color/bgPurple" />
+            android:textColor="@color/bgPurple"
+            android:fontFamily="@font/ocraextended"/>
 
 
     </RelativeLayout>

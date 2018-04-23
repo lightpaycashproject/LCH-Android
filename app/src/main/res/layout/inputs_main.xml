@@ -21,12 +21,12 @@
             android:text="@string/total_amount"
             android:layout_marginRight="4dp"
             android:textColor="@color/mainText"
-            android:textSize="16dp"/>
+            android:textSize="16dp" android:fontFamily="@font/ocraextended"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txt_amount"
-            android:text="3.13 COLX"/>
+            android:text="3.13 COLX" android:fontFamily="@font/ocraextended"/>
     </LinearLayout>
 
     <TextView
@@ -37,7 +37,7 @@
         android:paddingBottom="20dp"
         android:gravity="center"
         android:textColor="@color/mainText"
-        android:textSize="16sp"/>
+        android:textSize="16sp" android:fontFamily="@font/ocraextended"/>
 
     </LinearLayout>
 

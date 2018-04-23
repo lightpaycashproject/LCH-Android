@@ -146,10 +146,10 @@ public class SettingsActivity extends BaseDrawerActivity implements View.OnClick
         if (!isOnForeground)return;
         txt_network_info.setText(
                 Html.fromHtml(
-                        "Network<br><font color=#55476c>"+pivxModule.getConf().getNetworkParams().getId()+
+                        "Network<br><font color=#1b3939>"+pivxModule.getConf().getNetworkParams().getId()+
                                 "</font><br>" +
-                                "Height<br><font color=#1f351f>"+pivxModule.getChainHeight()+"</font><br>" +
-                                "Protocol Version<br><font color=#1f351f>"+
+                                "Height<br><font color=#1b3939>"+pivxModule.getChainHeight()+"</font><br>" +
+                                "Protocol Version<br><font color=#1b3939>"+
                                 pivxModule.getProtocolVersion()+"</font>"
 
                 )

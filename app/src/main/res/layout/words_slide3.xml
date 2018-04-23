@@ -17,7 +17,8 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="@string/restore_words_3"
         android:textColor="@color/mainText"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:fontFamily="@font/ocraextended"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,7 +50,8 @@
                 android:lines="1"
                 android:padding="8dp"
                 android:maxLines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word18"
@@ -64,7 +66,8 @@
                 android:textColor="@color/mainText"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -89,7 +92,8 @@
                 android:nextFocusDown="@+id/text_word20"
                 android:inputType="text"
                 android:lines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word20"
@@ -104,7 +108,8 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -128,7 +133,8 @@
                 android:nextFocusDown="@+id/text_word22"
                 android:inputType="text"
                 android:lines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word22"
@@ -143,7 +149,8 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -166,7 +173,8 @@
                 android:padding="8dp"
                 android:textColor="@color/mainText"
                 android:maxLines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word24"
@@ -180,7 +188,8 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -196,6 +205,7 @@
         android:paddingBottom="7dp"
         android:textColor="@color/warning"
         android:text="@string/restore_bip32_warning"
+        android:fontFamily="@font/ocraextended"
         />
 
     <CheckBox
@@ -204,6 +214,7 @@
         android:id="@+id/check_bip32"
         android:layout_below="@+id/txt_bip32_message"
         android:text="BIP32 wallet"
+        android:fontFamily="@font/ocraextended"
         />
 
 </RelativeLayout>

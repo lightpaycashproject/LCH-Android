@@ -12,6 +12,7 @@
         android:textColor="@color/mainText"
         android:textSize="20sp"
         android:gravity="center"
+        android:fontFamily="@font/ocraextended"
         />
 
     <TextView
@@ -20,7 +21,9 @@
         android:text="@string/confirmation_time"
         android:textColor="@color/subtitle"
         android:paddingTop="16dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:fontFamily="@font/ocraextended"
+        />
     
     
     <RelativeLayout
@@ -35,7 +38,9 @@
             android:layout_height="wrap_content"
             android:textSize="14sp"
             android:textColor="@color/mainText"
-            android:text="@string/fee_normal"/>
+            android:text="@string/fee_normal"
+            android:fontFamily="@font/ocraextended"
+            />
 
         <SeekBar
             android:layout_width="175dp"
@@ -52,7 +57,9 @@
             android:text="@string/fee_fast"
             android:textSize="14sp"
             android:textColor="@color/mainText"
-            android:layout_alignParentEnd="true"/>
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/ocraextended"
+            />
         
         
         

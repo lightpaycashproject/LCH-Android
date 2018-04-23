@@ -27,7 +27,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/select_all"/>
+            android:text="@string/select_all"
+            android:fontFamily="@font/ocraextended"
+            />
 
         </LinearLayout>
 

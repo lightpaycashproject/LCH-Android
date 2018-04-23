@@ -16,7 +16,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="@string/restore_words_1"
         android:textColor="@color/mainText"
-        android:textSize="18sp" />
+        android:textSize="18sp" android:fontFamily="@font/ocraextended"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                 android:imeOptions="actionNext"
                 android:maxLines="1"
                 android:padding="8dp"
-                android:textColor="@color/mainText" />
+                android:textColor="@color/mainText" android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word2"
@@ -63,7 +63,7 @@
                 android:inputType="text"
                 android:lines="1"
                 android:padding="8dp"
-                android:textColor="@color/mainText" />
+                android:textColor="@color/mainText" android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -88,7 +88,7 @@
                 android:lines="1"
                 android:maxLines="1"
                 android:padding="8dp"
-                android:textColor="@color/mainText" />
+                android:textColor="@color/mainText" android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word4"
@@ -102,7 +102,7 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp" android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -125,7 +125,7 @@
                 android:lines="1"
                 android:inputType="text"
                 android:maxLines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp" android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word6"
@@ -139,7 +139,7 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp" android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -161,7 +161,7 @@
                 android:inputType="text"
                 android:textColor="@color/mainText"
                 android:maxLines="1"
-                android:layout_marginRight="4dp"/>
+                android:layout_marginRight="4dp" android:fontFamily="@font/ocraextended"/>
 
             <AutoCompleteTextView
                 android:id="@+id/text_word8"
@@ -174,7 +174,7 @@
                 android:background="@drawable/bg_inputs"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:padding="8dp"/>
+                android:padding="8dp" android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 

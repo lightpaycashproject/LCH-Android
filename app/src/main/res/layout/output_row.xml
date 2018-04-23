@@ -17,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Address 1"
-        android:id="@+id/txt_address_number"/>
+        android:id="@+id/txt_address_number"
+            android:fontFamily="@font/ocraextended"/>
 
         <ImageView
             android:layout_width="24dp"
@@ -58,6 +59,7 @@
             android:inputType="text"
             android:textSize="14sp"
             android:textColor="@color/mainText"
+            android:fontFamily="@font/ocraextended"
             />
 
         <LinearLayout
@@ -72,7 +74,9 @@
                 android:layout_height="24dp"
                 android:layout_marginBottom="3dp"
                 android:id="@+id/img_qr"
-                android:src="@drawable/ic_qr_code"/>
+                android:src="@drawable/ic_qr_code"
+                android:fontFamily="@font/ocraextended"
+                />
 
 
         </LinearLayout>
@@ -93,7 +97,9 @@
         android:textSize="15sp"
         android:textCursorDrawable="@drawable/color_cursor"
         android:textColor="@color/mainText"
-        android:id="@+id/edit_amount"/>
+        android:id="@+id/edit_amount"
+        android:fontFamily="@font/ocraextended"
+        />
 
     <EditText
         android:background="@drawable/transaction_inputs"
@@ -106,6 +112,7 @@
         android:hint="Address label"
         android:textSize="15sp"
         android:textColor="@color/mainText"
-        android:id="@+id/edit_address_label"/>
+        android:id="@+id/edit_address_label"
+        android:fontFamily="@font/ocraextended"/>
 
 </LinearLayout>

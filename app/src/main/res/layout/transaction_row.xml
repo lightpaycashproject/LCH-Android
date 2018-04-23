@@ -48,7 +48,8 @@
                 tools:text="DAE9XiuuCYgbGC2aTEZT8jnGStv3eWrWDw"
                 android:hint="Error"
                 android:textColor="@color/bgPurple"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:fontFamily="@font/ocraextended"/>
 
             <TextView
                 android:id="@+id/description"
@@ -58,7 +59,8 @@
                 android:maxLength="28"
                 android:maxLines="1"
                 android:text="Description"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/ocraextended"/>
 
         </LinearLayout>
 
@@ -81,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:text="scaled"
                 android:textColor="#404040"
-                android:textSize="11sp" />
+                android:textSize="11sp"
+                android:fontFamily="@font/ocraextended"/>
 
             <TextView
                 android:id="@+id/amount"
@@ -91,7 +94,8 @@
                 android:layout_height="wrap_content"
                 android:text="0.00203 COLX"
                 android:textColor="#404040"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/ocraextended"/>
 
             <TextView
                 android:id="@+id/txt_local_currency"
@@ -102,7 +106,8 @@
                 tools:text="0.002 USD"
                 android:lines="1"
                 android:textColor="#7f7f7f"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/ocraextended"/>
         </LinearLayout>
 
 

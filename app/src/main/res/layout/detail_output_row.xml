@@ -14,20 +14,23 @@
         android:paddingStart="8dp"
         android:text = "Address 1"
         android:textColor = "@color/subtitle"
-        android:textSize = "14sp" />
+        android:textSize = "14sp"
+        android:fontFamily="@font/ocraextended"
+        />
 
 
     <TextView
-        android:id = "@+id/txt_address"
-        android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
-        android:paddingTop="3dp"
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ocraextended"
+        android:hint="Error"
         android:paddingEnd="8dp"
         android:paddingStart="8dp"
-        tools:text = "1FfmbHfnpaZjKFvyi1okTjJJusN455paPH"
-        android:hint="Error"
-        android:textColor = "@color/mainText"
-        android:textSize = "15sp" />
+        android:paddingTop="3dp"
+        android:textColor="#2c7272"
+        android:textSize="15sp"
+        tools:text="1FfmbHfnpaZjKFvyi1okTjJJusN455paPH" />
 
     <TextView
         android:id = "@+id/txt_value"
@@ -39,6 +42,8 @@
         android:background="@drawable/transaction_inputs"
         android:text = "40 COLX"
         android:textColor = "@color/subtitle"
-        android:textSize = "14sp" />
+        android:textSize = "14sp"
+        android:fontFamily="@font/ocraextended"
+        />
 
 </LinearLayout>

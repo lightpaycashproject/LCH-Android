@@ -40,7 +40,9 @@
                         android:text = "@string/title_amount"
                         android:layout_marginBottom="10dp"
                         android:textColor = "#757575"
-                        android:textSize = "14sp" />
+                        android:textSize = "14sp"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
                     <EditText
                         android:id = "@+id/edit_amount"
@@ -60,7 +62,9 @@
                         android:hint="@string/set_amount_piv"
                         android:text = ""
                         android:textColor = "#434343"
-                        android:textSize = "20sp" />
+                        android:textSize = "20sp"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
 
                     <TextView
@@ -79,7 +83,8 @@
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:background="@android:color/transparent"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal"
+                    >
 
                     <TextView
                         android:layout_width = "wrap_content"
@@ -88,7 +93,9 @@
                         android:text = "@string/title_amount"
                         android:layout_marginBottom="10dp"
                         android:textColor = "#757575"
-                        android:textSize = "14sp" />
+                        android:textSize = "14sp"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
                     <EditText
                         android:id = "@+id/edit_amount_currency"
@@ -108,7 +115,9 @@
                         android:hint="@string/set_amount_usd"
                         android:text = ""
                         android:textColor = "#434343"
-                        android:textSize = "20sp" />
+                        android:textSize = "20sp"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
 
                     <TextView
@@ -117,7 +126,9 @@
                         android:layout_height = "wrap_content"
                         android:text = "0 COLX"
                         android:textColor = "#858585"
-                        android:textSize = "16sp" />
+                        android:textSize = "16sp"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
                 </LinearLayout>
             </ViewFlipper>
@@ -131,7 +142,9 @@
                 android:layout_height="wrap_content"
                 android:background="@color/transparent"
                 android:textColor="@color/colorPurple"
-                android:text="@string/add_all"/>
+                android:text="@string/add_all"
+                android:fontFamily="@font/ocraextended"
+                />
 
             <LinearLayout
                 android:layout_below="@+id/btn_add_all"
@@ -150,7 +163,7 @@
                     android:layout_marginBottom="10dp"
                     android:text = "@string/title_address"
                     android:textColor = "#757575"
-                    android:textSize = "14sp" />
+                    android:textSize = "14sp" android:fontFamily="@font/ocraextended"/>
 
 
                 <TextView
@@ -165,6 +178,7 @@
                     android:visibility="gone"
                     android:textStyle="bold"
                     android:textColor="#d0011b"
+                    android:fontFamily="@font/ocraextended"
                     />
 
                 <LinearLayout
@@ -192,7 +206,9 @@
                         android:text = ""
                         android:textColor = "#434343"
                         android:textSize = "14.5sp"
-                        android:layout_alignParentBottom="true" />
+                        android:layout_alignParentBottom="true"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
 
                     <ImageButton
@@ -204,7 +220,9 @@
                         android:src="@drawable/ic_qr_code"
                         android:layout_centerVertical="true"
                         android:layout_marginRight="5dp"
-                        android:text="Button"/>
+                        android:text="Button"
+                        android:fontFamily="@font/ocraextended"
+                        />
 
                 </LinearLayout>
                 <TextView
@@ -214,7 +232,7 @@
                     android:text = "@string/title_description"
                     android:layout_marginBottom="10dp"
                     android:textColor = "#757575"
-                    android:textSize = "14sp" />
+                    android:textSize = "14sp" android:fontFamily="@font/ocraextended"/>
 
                 <EditText
                     android:id = "@+id/edit_memo"
@@ -230,7 +248,7 @@
                     android:hint="@string/set_description"
                     android:text = ""
                     android:textColor = "#434343"
-                    android:textSize = "15sp" />
+                    android:textSize = "15sp" android:fontFamily="@font/ocraextended"/>
 
             </LinearLayout>
 
@@ -257,6 +275,7 @@
                     android:visibility="gone"
                     android:textStyle="bold"
                     android:paddingBottom="12dp"
+                    android:fontFamily="@font/ocraextended"
                     />
 
                 <TextView
@@ -268,6 +287,7 @@
                     android:visibility="gone"
                     android:textColor="#d0011b"
                     android:textStyle="bold"
+                    android:fontFamily="@font/ocraextended"
                     android:paddingBottom="12dp"
                     />
 
@@ -296,7 +316,7 @@
                     android:layout_gravity="bottom"
                     android:text="@string/btn_send"
                     android:textColor="@color/textColorPurple"
-                    android:textSize="14sp" />
+                    android:textSize="14sp" android:fontFamily="@font/ocraextended"/>
 
 
                 <TextView
@@ -305,7 +325,7 @@
                     android:text="@string/fee_included"
                     android:gravity="center"
                     android:paddingTop="16dp"
-                    android:paddingBottom="16dp"/>
+                    android:paddingBottom="16dp" android:fontFamily="@font/ocraextended"/>
 
             </LinearLayout>
 

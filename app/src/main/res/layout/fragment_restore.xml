@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/bgPurple">
+    android:background="@color/bgPurple" android:fontFamily="@font/ocraextended">
 
     <TextView
         android:id="@+id/restoreMessage"
@@ -18,7 +18,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="@string/restore_wallet_message"
         android:textColor="@color/textColorWhite"
-        android:textSize="18sp" />
+        android:textSize="18sp" android:fontFamily="@font/ocraextended"/>
 
     <Button
         android:id="@+id/addFile"
@@ -36,7 +36,7 @@
         android:paddingRight="10dip"
         android:text="@string/select_file"
         android:textColor="@color/textColorWhite"
-        android:textSize="14sp" />
+        android:textSize="14sp" android:fontFamily="@font/ocraextended"/>
 
     <EditText
         android:id="@+id/password"
@@ -52,7 +52,8 @@
         android:paddingRight="10dip"
         android:textColor="@color/textColorWhite"
         android:textColorHint="@color/textColorWhite"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:fontFamily="@font/ocraextended"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_below="@+id/password"
@@ -61,13 +62,13 @@
         app:passwordToggleContentDescription="@string/string_password"
         app:passwordToggleDrawable="@drawable/ic_view_white"
         app:passwordToggleEnabled="true"
-        app:passwordToggleTint="@color/colorAccent">
+        app:passwordToggleTint="@color/colorAccent" android:fontFamily="@font/ocraextended">
 
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/string_password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" android:fontFamily="@font/ocraextended" />
     </android.support.design.widget.TextInputLayout>
 
 
@@ -84,7 +85,7 @@
         <Button
             android:id="@+id/btn_restore"
             android:text="@string/btn_restore_wallet"
-            style="@style/ButtomWhite"/>
+            style="@style/ButtomWhite" android:fontFamily="@font/ocraextended"/>
 
 
     </LinearLayout>

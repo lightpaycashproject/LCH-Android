@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fontFamily="@font/ocraextended"
+    >
 
     <TextView
         android:layout_width="match_parent"
@@ -15,9 +17,11 @@
         android:textStyle="bold"
         android:paddingBottom="9dp"
         android:textSize="16sp"
+        android:fontFamily="@font/ocraextended"
         />
 
     <TextView
+        android:fontFamily="@font/ocraextended"
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +33,7 @@
         android:textSize="14sp" />
 
     <TextView
+        android:fontFamily="@font/ocraextended"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_backup_dir"
@@ -38,6 +43,7 @@
 
 
     <TextView
+        android:fontFamily="@font/ocraextended"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_ok"

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -33,6 +34,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.NoPeerConnectedException;
 import colx.org.colxwallet.rate.db.PivxRate;
+import colx.org.colxwallet.ui.CustomTypefaceSpan;
 import colx.org.colxwallet.ui.base.BaseDrawerActivity;
 import colx.org.colxwallet.ui.base.dialogs.SimpleTextDialog;
 import colx.org.colxwallet.ui.base.dialogs.SimpleTwoButtonsDialog;
@@ -53,6 +55,7 @@ import static colx.org.colxwallet.ui.transaction_send_activity.SendActivity.INTE
 import static colx.org.colxwallet.ui.transaction_send_activity.SendActivity.INTENT_EXTRA_TOTAL_AMOUNT;
 import static colx.org.colxwallet.ui.transaction_send_activity.SendActivity.INTENT_MEMO;
 import static colx.org.colxwallet.utils.scanner.ScanActivity.INTENT_EXTRA_RESULT;
+
 
 /**
  * Created by Neoperol on 5/11/17.
@@ -93,6 +96,8 @@ public class WalletActivity extends BaseDrawerActivity {
         }
     };
 
+
+
     @Override
     protected void beforeCreate(){
         /*
@@ -106,8 +111,10 @@ public class WalletActivity extends BaseDrawerActivity {
         localBroadcastManager = LocalBroadcastManager.getInstance(this);
     }
 
+
     @Override
     protected void onCreateView(Bundle savedInstanceState, ViewGroup container) {
+
         setTitle(R.string.my_wallet);
         root = getLayoutInflater().inflate(R.layout.fragment_wallet, container);
         View containerHeader = getLayoutInflater().inflate(R.layout.fragment_pivx_amount,header_container);

@@ -28,6 +28,8 @@
 		android:textAllCaps="true"
 		android:textSize="15sp"
 		android:textColor="@color/bgPurple"
-		android:textStyle="bold" />
+		android:textStyle="bold"
+		android:fontFamily="@font/ocraextended"
+		/>
 
 </LinearLayout>

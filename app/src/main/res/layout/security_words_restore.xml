@@ -33,7 +33,8 @@
             android:drawablePadding="10dp"
             android:text="@string/next_words"
             android:onClick="btnNextClick"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/ocraextended"/>
 
         <Button
             android:id="@+id/btn_back"
@@ -45,7 +46,8 @@
             android:drawableLeft="@drawable/ic_arrow_back"
             android:drawablePadding="10dp"
             android:text="@string/back"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/ocraextended"/>
 
     </RelativeLayout>
 
@@ -73,7 +75,8 @@
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:paddingBottom="24dp"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:fontFamily="@font/ocraextended"/>
 
 
             <com.wang.avi.AVLoadingIndicatorView

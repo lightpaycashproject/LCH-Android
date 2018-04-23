@@ -19,7 +19,9 @@
         android:text = "@string/pincode_message"
         android:layout_centerHorizontal = "true"
         android:textColor = "@color/mainText"
-        android:textSize = "18sp" />
+        android:textSize = "18sp"
+        android:fontFamily="@font/ocraextended"
+        />
 
     <LinearLayout android:id="@+id/pin_layout"
         android:layout_width="match_parent"

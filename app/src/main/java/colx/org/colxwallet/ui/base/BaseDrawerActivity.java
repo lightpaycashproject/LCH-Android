@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -82,7 +83,6 @@ public class BaseDrawerActivity extends PivxActivity implements NavigationView.O
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         View headerLayout = navigationView.getHeaderView(0);
@@ -230,17 +230,17 @@ public class BaseDrawerActivity extends PivxActivity implements NavigationView.O
             switch (blockchainState) {
                 case SYNC:
                     text = getString(R.string.sync);
-                    color = Color.parseColor("#3cbb36");
+                    color = Color.parseColor("#1b3939");
                     imgSrc = 0;
                     break;
                 case SYNCING:
                     text = getString(R.string.syncing)+" "+progress+"%";
-                    color = Color.parseColor("#f6a623");
+                    color = Color.parseColor("#1b3939");
                     imgSrc = R.drawable.ic_header_unsynced;
                     break;
                 case NOT_CONNECTION:
                     text = getString(R.string.not_connection);
-                    color = Color.parseColor("#f6a623");
+                    color = Color.parseColor("#1b3939");
                     imgSrc = R.drawable.ic_header_unsynced;
                     break;
             }

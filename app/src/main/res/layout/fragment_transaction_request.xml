@@ -35,7 +35,9 @@
             android:layout_gravity="bottom"
             android:text="@string/btn_request"
             android:textColor="@color/textColorPurple"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:fontFamily="@font/ocraextended"
+            />
 
 
         <TextView
@@ -44,7 +46,9 @@
             android:text="@string/fee_included"
             android:gravity="center"
             android:paddingTop="16dp"
-            android:paddingBottom="16dp"/>
+            android:paddingBottom="16dp"
+            android:fontFamily="@font/ocraextended"
+            />
 
     </LinearLayout>
 

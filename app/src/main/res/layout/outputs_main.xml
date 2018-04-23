@@ -17,13 +17,17 @@
             android:text="@string/total_amount"
             android:layout_marginRight="4dp"
             android:textColor="@color/mainText"
-            android:textSize="16dp"/>
+            android:textSize="16dp"
+            android:fontFamily="@font/ocraextended"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txt_total_amount"
             android:textColor = "@color/mainText"
-            android:text="3.13 COLX"/>
+            android:text="3.13 COLX"
+            android:fontFamily="@font/ocraextended"
+            />
     </LinearLayout>
 
 
@@ -38,16 +42,17 @@
         android:gravity="center">
 
         <TextView
+            android:id="@+id/txt_add_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txt_add_address"
             android:background="@drawable/bg_button_border"
+            android:fontFamily="@font/ocraextended"
             android:gravity="center"
             android:paddingBottom="12dp"
             android:paddingTop="12dp"
             android:text="@string/several_outputs_add_address"
+            android:textColor="#32a18e"
             android:textSize="14sp"
-            android:textColor="@color/colorPurple"
             android:textStyle="bold" />
 
     </LinearLayout>

@@ -32,6 +32,7 @@
             android:layout_marginLeft="20dp"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:fontFamily="@font/ocraextended"
             />
 
     </RelativeLayout>
@@ -54,7 +55,8 @@
         android:textAlignment="center"
         tools:text="Please enter user and password"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/ocraextended"/>
 
 
     <TextView
@@ -65,6 +67,7 @@
         android:gravity="center"
         android:textColor="#fff"
         android:background="#DC505E"
+        android:fontFamily="@font/ocraextended"
         />
 
 

@@ -50,7 +50,7 @@
                 app:menu_shadowRadius="4dp"
                 app:menu_shadowXOffset="1dp"
                 app:menu_shadowYOffset="3dp"
-                app:menu_colorNormal="@color/bgPurple"
+                app:menu_colorNormal="#2c7272"
                 app:menu_colorPressed="@color/bgPurple"
                 app:menu_colorRipple="#99FFFFFF"
                 app:menu_animationDelayPerItem="60"
@@ -100,7 +100,8 @@
                     app:fab_size="mini"
                     app:fab_colorNormal="#000000"
                     app:fab_colorPressed="#000000"
-                    app:fab_label="@string/btn_send" />
+                    app:fab_label="@string/btn_send"
+                    />
 
             </com.github.clans.fab.FloatingActionMenu>
 
