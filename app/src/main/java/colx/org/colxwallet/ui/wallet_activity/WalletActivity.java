@@ -227,6 +227,7 @@ public class WalletActivity extends BaseDrawerActivity {
                             }
                         }
                 );
+                reminderDialog.setRightBtnBackgroundColor(ContextCompat.getColor(this,R.color.mainText));
                 reminderDialog.setLeftBtnText(getString(R.string.button_dismiss));
                 reminderDialog.setLeftBtnTextColor(Color.BLACK);
                 reminderDialog.setRightBtnText(getString(R.string.button_ok));

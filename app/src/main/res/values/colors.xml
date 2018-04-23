@@ -4,7 +4,7 @@
     <color name="colorPrimary">#55476c</color>
     <color name="colorPrimaryDark">#202120</color>
     <color name="colorAccent">#009688</color>
-    <color name="bgPurple">#3e6940</color>
+    <color name="bgPurple">#2c7272</color>
     <color name="green">#009688</color>
     <color name="lightGreen1">#36c6a5</color>
     <color name="mainGreen">#B7FFF9</color>
@@ -40,7 +40,7 @@
 
     <!-- Tutorial -->
 
-    <color name="bg_screen1">#205122</color>
+    <color name="bg_screen1">#2c7272</color>
     <color name="bg_screen2">#73bdc5</color>
     <color name="bg_screen3">#ed8557</color>
 

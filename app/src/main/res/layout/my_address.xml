@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bgPurple"
+    android:background="#2c7272"
     android:padding="32dp">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bgPurple"
+        android:background="#2c7272"
         android:orientation="vertical">
 
         <LinearLayout
@@ -61,7 +61,7 @@
             android:gravity="center"
             android:text="@string/copy"
             android:textAlignment="center"
-            android:textColor="@color/bgPurple"
+            android:textColor="#2c7272"
             android:textSize="20sp"
             android:fontFamily="@font/ocraextended"/>
 
@@ -76,7 +76,7 @@
             android:gravity="center"
             android:text="@string/share"
             android:textAlignment="center"
-            android:textColor="@color/bgPurple"
+            android:textColor="#2c7272"
             android:textSize="20sp" />
 
     </LinearLayout>
