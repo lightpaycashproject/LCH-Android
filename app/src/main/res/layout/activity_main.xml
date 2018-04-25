@@ -23,8 +23,7 @@
         app:menu="@menu/activity_main_drawer"
         android:background="#32a18e"
         app:itemTextColor = "@color/white"
-       app:itemIconTint="@color/white"
-        >
+       app:itemIconTint="@color/white" >
 
         <LinearLayout
             android:layout_width="match_parent"

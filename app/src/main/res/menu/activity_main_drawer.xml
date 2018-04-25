@@ -15,7 +15,7 @@
             android:fontFamily="@font/ocraextended"
             android:icon="@mipmap/ic_wallet"
             android:title="@string/my_wallet"
-            android:textColor = "@color/white"
+            android:textColor = "@color/green"
             android:color = "@color/red"
             />
 
