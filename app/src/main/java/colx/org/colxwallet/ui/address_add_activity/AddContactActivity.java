@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.contacts.AddressLabel;
@@ -145,7 +145,7 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
                     if (pivxModule.chechAddress(address)){
                         usedAddress = address;
                     }else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                     }
                     final String tempPubKey = usedAddress;

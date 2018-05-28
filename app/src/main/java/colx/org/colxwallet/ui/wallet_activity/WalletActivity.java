@@ -24,7 +24,7 @@ import com.github.clans.fab.FloatingActionMenu;
 
 import org.colxj.core.Coin;
 import org.colxj.core.Transaction;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -303,7 +303,7 @@ public class WalletActivity extends BaseDrawerActivity {
                     if (pivxModule.chechAddress(address)){
                         usedAddress = address;
                     }else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                         final Coin amount = pivxUri.getAmount();
                         if (amount != null){

@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import org.colxj.core.AddressFormatException;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.base.BaseActivity;
@@ -157,7 +157,7 @@ public class ChangeAddressActivity extends BaseActivity {
                     if (pivxModule.chechAddress(address)){
                         usedAddress = address;
                     }else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                     }
                     edit_address.setText(usedAddress);

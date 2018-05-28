@@ -36,7 +36,7 @@ import org.colxj.core.NetworkParameters;
 import org.colxj.core.Transaction;
 import org.colxj.core.TransactionInput;
 import org.colxj.core.TransactionOutput;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 import org.colxj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -508,7 +508,7 @@ public class SendActivity extends BaseActivity implements View.OnClickListener {
                     if (pivxModule.chechAddress(address)){
                         usedAddress = address;
                     }else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                     }
                     final String tempPubKey = usedAddress;

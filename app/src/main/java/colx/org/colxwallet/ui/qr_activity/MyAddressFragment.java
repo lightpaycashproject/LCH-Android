@@ -20,7 +20,7 @@ import android.widget.Toast;
 import com.google.zxing.WriterException;
 
 import org.colxj.core.Address;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import colx.org.colxwallet.ColxApplication;
 import colx.org.colxwallet.R;
@@ -80,7 +80,7 @@ public class MyAddressFragment extends Fragment implements View.OnClickListener 
                 flag = true;
             }
             if (flag) {
-                String pivxUri = PivxURI.convertToBitcoinURI(address,null,"Receive address",null);
+                String pivxUri = ColxURI.convertToBitcoinURI(address,null,"Receive address",null);
                 loadAddress(pivxUri,address.toBase58());
             }
         }catch (WriterException e){

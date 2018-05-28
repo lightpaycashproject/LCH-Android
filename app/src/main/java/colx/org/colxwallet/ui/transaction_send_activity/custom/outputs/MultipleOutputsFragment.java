@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import org.colxj.core.Coin;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -281,7 +281,7 @@ public class MultipleOutputsFragment extends BaseRecyclerFragment<OutputWrapper>
                     if (pivxModule.chechAddress(address)){
                         usedAddress = address;
                     }else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                     }
                     final String tempPubKey = usedAddress;

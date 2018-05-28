@@ -27,7 +27,7 @@ import com.google.zxing.WriterException;
 import org.colxj.core.Coin;
 import org.colxj.core.NetworkParameters;
 import org.colxj.core.Transaction;
-import org.colxj.uri.PivxURI;
+import org.colxj.uri.ColxURI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -151,7 +151,7 @@ public class RequestActivity extends BaseActivity implements View.OnClickListene
 
         NetworkParameters params = pivxModule.getConf().getNetworkParams();
 
-        String pivxURI = PivxURI.convertToBitcoinURI(
+        String pivxURI = ColxURI.convertToBitcoinURI(
                 params,
                 addressStr,
                 amount,
@@ -192,7 +192,7 @@ public class RequestActivity extends BaseActivity implements View.OnClickListene
                     if (pivxModule.chechAddress(address)) {
                         usedAddress = address;
                     } else {
-                        PivxURI pivxUri = new PivxURI(address);
+                        ColxURI pivxUri = new ColxURI(address);
                         usedAddress = pivxUri.getAddress().toBase58();
                     }
                     final String tempPubKey = usedAddress;
