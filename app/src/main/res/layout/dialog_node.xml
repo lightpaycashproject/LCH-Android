@@ -10,7 +10,7 @@
     android:paddingRight="12dp"
     android:paddingTop="20dp"
     android:gravity="left"
-    tools:context="colx.org.colxwallet.ui.base.BaseDrawerActivity">
+    tools:context="lightpaycash.org.lightpaycashwallet.ui.base.BaseDrawerActivity">
 
 
     <TextView

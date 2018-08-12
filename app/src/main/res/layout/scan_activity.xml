@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:keepScreenOn="true" />
 
-    <colx.org.colxwallet.utils.scanner.ScannerView
+    <lightpaycash.org.lightpaycashwallet.utils.scanner.ScannerView
         android:id="@+id/scan_activity_mask"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

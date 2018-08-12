@@ -11,7 +11,7 @@ import pivtrum.PivtrumPeerData;
 
 public class PivtrumGlobalData {
 
-    public static final String[] TRUSTED_NODES = new String[]{"seed.colxt.net"};
+    public static final String[] TRUSTED_NODES = new String[]{"seed.lightpaycasht.net"};
 
     public static final List<PivtrumPeerData> listTrustedHosts(){
         List<PivtrumPeerData> list = new ArrayList<>();

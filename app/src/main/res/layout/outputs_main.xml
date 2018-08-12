@@ -62,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/multiple_addresses_fragment"
-        android:name="colx.org.colxwallet.ui.transaction_send_activity.custom.outputs.MultipleOutputsFragment"
+        android:name="lightpaycash.org.lightpaycashwallet.ui.transaction_send_activity.custom.outputs.MultipleOutputsFragment"
 
         />
 
