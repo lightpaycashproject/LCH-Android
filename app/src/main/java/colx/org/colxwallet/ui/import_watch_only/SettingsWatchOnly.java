@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import org.colxj.wallet.DeterministicKeyChain;
+import org.lightpaycashj.wallet.DeterministicKeyChain;
 
 import java.io.IOException;
 

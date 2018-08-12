@@ -1,12 +1,12 @@
 package org.pivtrum.imp;
 
-import org.colxj.core.ECKey;
-import org.colxj.params.TestNet3Params;
+import org.lightpaycashj.core.ECKey;
+import org.lightpaycashj.params.TestNet3Params;
 import org.junit.Test;
 import org.spongycastle.math.ec.ECPoint;
 import org.spongycastle.util.encoders.Hex;
 
-import static org.colxj.core.ECKey.CURVE;
+import static org.lightpaycashj.core.ECKey.CURVE;
 
 /**
  * Created by furszy on 8/13/17.

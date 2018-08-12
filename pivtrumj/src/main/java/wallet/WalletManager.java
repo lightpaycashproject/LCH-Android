@@ -2,30 +2,30 @@ package wallet;
 
 import com.google.common.base.Charsets;
 
-import org.colxj.core.Address;
-import org.colxj.core.BlockChain;
-import org.colxj.core.Coin;
-import org.colxj.core.InsufficientMoneyException;
-import org.colxj.core.PeerGroup;
-import org.colxj.core.Sha256Hash;
-import org.colxj.core.Transaction;
-import org.colxj.core.TransactionInput;
-import org.colxj.core.TransactionOutput;
-import org.colxj.core.Utils;
-import org.colxj.core.listeners.TransactionConfidenceEventListener;
-import org.colxj.crypto.DeterministicKey;
-import org.colxj.crypto.LinuxSecureRandom;
-import org.colxj.crypto.MnemonicCode;
-import org.colxj.crypto.MnemonicException;
-import org.colxj.wallet.DeterministicKeyChain;
-import org.colxj.wallet.DeterministicSeed;
-import org.colxj.wallet.Protos;
-import org.colxj.wallet.SendRequest;
-import org.colxj.wallet.UnreadableWalletException;
-import org.colxj.wallet.Wallet;
-import org.colxj.wallet.WalletFiles;
-import org.colxj.wallet.WalletProtobufSerializer;
-import org.colxj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.lightpaycashj.core.Address;
+import org.lightpaycashj.core.BlockChain;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.core.InsufficientMoneyException;
+import org.lightpaycashj.core.PeerGroup;
+import org.lightpaycashj.core.Sha256Hash;
+import org.lightpaycashj.core.Transaction;
+import org.lightpaycashj.core.TransactionInput;
+import org.lightpaycashj.core.TransactionOutput;
+import org.lightpaycashj.core.Utils;
+import org.lightpaycashj.core.listeners.TransactionConfidenceEventListener;
+import org.lightpaycashj.crypto.DeterministicKey;
+import org.lightpaycashj.crypto.LinuxSecureRandom;
+import org.lightpaycashj.crypto.MnemonicCode;
+import org.lightpaycashj.crypto.MnemonicException;
+import org.lightpaycashj.wallet.DeterministicKeyChain;
+import org.lightpaycashj.wallet.DeterministicSeed;
+import org.lightpaycashj.wallet.Protos;
+import org.lightpaycashj.wallet.SendRequest;
+import org.lightpaycashj.wallet.UnreadableWalletException;
+import org.lightpaycashj.wallet.Wallet;
+import org.lightpaycashj.wallet.WalletFiles;
+import org.lightpaycashj.wallet.WalletProtobufSerializer;
+import org.lightpaycashj.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -188,7 +188,7 @@ public class WalletManager {
         wallet.addCoinsReceivedEventListener(new WalletCoinsReceivedEventListener() {
             @Override
             public void onCoinsReceived(Wallet wallet, Transaction transaction, Coin coin, Coin coin1) {
-                org.colxj.core.Context.propagate(conf.getWalletContext());
+                org.lightpaycashj.core.Context.propagate(conf.getWalletContext());
                 saveWallet();
             }
         });

@@ -6,13 +6,13 @@ import com.snappydb.DB;
 import com.snappydb.DBFactory;
 import com.snappydb.SnappydbException;
 
-import org.colxj.core.Block;
-import org.colxj.core.Context;
-import org.colxj.core.NetworkParameters;
-import org.colxj.core.Sha256Hash;
-import org.colxj.core.StoredBlock;
-import org.colxj.store.BlockStore;
-import org.colxj.store.BlockStoreException;
+import org.lightpaycashj.core.Block;
+import org.lightpaycashj.core.Context;
+import org.lightpaycashj.core.NetworkParameters;
+import org.lightpaycashj.core.Sha256Hash;
+import org.lightpaycashj.core.StoredBlock;
+import org.lightpaycashj.store.BlockStore;
+import org.lightpaycashj.store.BlockStoreException;
 
 import java.io.File;
 import java.io.IOException;

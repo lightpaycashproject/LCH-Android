@@ -1,6 +1,6 @@
 package chain;
 
-import org.colxj.core.PeerGroup;
+import org.lightpaycashj.core.PeerGroup;
 
 import java.util.Set;
 

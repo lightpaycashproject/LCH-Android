@@ -23,7 +23,7 @@ import android.widget.Toast;
 
 import com.google.common.collect.Lists;
 
-import org.colxj.crypto.MnemonicException;
+import org.lightpaycashj.crypto.MnemonicException;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,6 +1,6 @@
 package colx.org.colxwallet.utils;
 
-import org.colxj.core.ScriptException;
+import org.lightpaycashj.core.ScriptException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

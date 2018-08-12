@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.colxj.core.Coin;
-import org.colxj.uri.ColxURI;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.uri.ColxURI;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.colxj.core.Peer;
+import org.lightpaycashj.core.Peer;
 
 import java.util.List;
 

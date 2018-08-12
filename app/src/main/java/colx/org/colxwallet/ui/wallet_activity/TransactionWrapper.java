@@ -1,8 +1,8 @@
 package colx.org.colxwallet.ui.wallet_activity;
 
-import org.colxj.core.Coin;
-import org.colxj.core.Sha256Hash;
-import org.colxj.core.Transaction;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.core.Sha256Hash;
+import org.lightpaycashj.core.Transaction;
 
 import java.io.Serializable;
 import java.util.Map;

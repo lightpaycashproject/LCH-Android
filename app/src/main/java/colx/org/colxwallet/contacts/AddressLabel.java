@@ -1,6 +1,6 @@
 package colx.org.colxwallet.contacts;
 
-import org.colxj.core.Sha256Hash;
+import org.lightpaycashj.core.Sha256Hash;
 
 import java.io.Serializable;
 import java.util.ArrayList;

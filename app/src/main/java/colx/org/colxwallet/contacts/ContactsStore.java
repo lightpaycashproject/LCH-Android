@@ -5,7 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import org.colxj.core.Sha256Hash;
+import org.lightpaycashj.core.Sha256Hash;
 import org.json.JSONArray;
 import org.json.JSONException;
 

@@ -22,9 +22,9 @@ import android.widget.Toast;
 
 import com.github.clans.fab.FloatingActionMenu;
 
-import org.colxj.core.Coin;
-import org.colxj.core.Transaction;
-import org.colxj.uri.ColxURI;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.core.Transaction;
+import org.lightpaycashj.uri.ColxURI;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

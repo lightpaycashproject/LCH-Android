@@ -1,2 +1,2 @@
 configurations.maybeCreate("default")
-artifacts.add("default", file('colxj-core-1.03.jar'))
+artifacts.add("default", file('lightpaycashj-core-1.03.jar'))

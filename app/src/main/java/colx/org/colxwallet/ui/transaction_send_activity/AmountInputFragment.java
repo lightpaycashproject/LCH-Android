@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
-import org.colxj.core.Coin;
+import org.lightpaycashj.core.Coin;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

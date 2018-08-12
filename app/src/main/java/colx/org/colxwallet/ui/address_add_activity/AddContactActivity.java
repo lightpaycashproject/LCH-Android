@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.colxj.uri.ColxURI;
+import org.lightpaycashj.uri.ColxURI;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.contacts.AddressLabel;

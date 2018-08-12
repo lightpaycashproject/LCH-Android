@@ -10,7 +10,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.colxj.core.Coin;
+import org.lightpaycashj.core.Coin;
 
 import java.io.Serializable;
 import java.util.List;

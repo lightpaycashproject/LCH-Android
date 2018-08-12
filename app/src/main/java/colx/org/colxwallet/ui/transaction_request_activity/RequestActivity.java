@@ -24,10 +24,10 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.colxj.core.Coin;
-import org.colxj.core.NetworkParameters;
-import org.colxj.core.Transaction;
-import org.colxj.uri.ColxURI;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.core.NetworkParameters;
+import org.lightpaycashj.core.Transaction;
+import org.lightpaycashj.uri.ColxURI;
 
 import java.util.ArrayList;
 import java.util.List;

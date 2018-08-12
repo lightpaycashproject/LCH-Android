@@ -1,7 +1,7 @@
 package global;
 
-import org.colxj.core.Context;
-import org.colxj.core.NetworkParameters;
+import org.lightpaycashj.core.Context;
+import org.lightpaycashj.core.NetworkParameters;
 
 /**
  * Created by furszy on 6/4/17.

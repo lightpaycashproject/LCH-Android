@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.colxj.core.Coin;
-import org.colxj.utils.MonetaryFormat;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

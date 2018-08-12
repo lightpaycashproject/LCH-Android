@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.colxj.core.Coin;
+import org.lightpaycashj.core.Coin;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.base.BaseActivity;

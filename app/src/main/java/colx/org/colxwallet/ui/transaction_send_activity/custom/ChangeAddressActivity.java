@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.colxj.core.AddressFormatException;
-import org.colxj.uri.ColxURI;
+import org.lightpaycashj.core.AddressFormatException;
+import org.lightpaycashj.uri.ColxURI;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.base.BaseActivity;

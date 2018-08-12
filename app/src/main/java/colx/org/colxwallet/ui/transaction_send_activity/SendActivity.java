@@ -29,15 +29,15 @@ import android.widget.ViewFlipper;
 
 import com.google.zxing.WriterException;
 
-import org.colxj.core.Address;
-import org.colxj.core.Coin;
-import org.colxj.core.InsufficientMoneyException;
-import org.colxj.core.NetworkParameters;
-import org.colxj.core.Transaction;
-import org.colxj.core.TransactionInput;
-import org.colxj.core.TransactionOutput;
-import org.colxj.uri.ColxURI;
-import org.colxj.wallet.Wallet;
+import org.lightpaycashj.core.Address;
+import org.lightpaycashj.core.Coin;
+import org.lightpaycashj.core.InsufficientMoneyException;
+import org.lightpaycashj.core.NetworkParameters;
+import org.lightpaycashj.core.Transaction;
+import org.lightpaycashj.core.TransactionInput;
+import org.lightpaycashj.core.TransactionOutput;
+import org.lightpaycashj.uri.ColxURI;
+import org.lightpaycashj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

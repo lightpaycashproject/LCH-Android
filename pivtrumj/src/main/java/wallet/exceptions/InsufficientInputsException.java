@@ -1,6 +1,6 @@
 package wallet.exceptions;
 
-import org.colxj.core.Coin;
+import org.lightpaycashj.core.Coin;
 
 /**
  * Created by furszy on 8/9/17.

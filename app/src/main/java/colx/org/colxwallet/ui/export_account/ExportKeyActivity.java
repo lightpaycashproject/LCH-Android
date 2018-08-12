@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.colxj.crypto.DeterministicKey;
+import org.lightpaycashj.crypto.DeterministicKey;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.module.PivxContext;

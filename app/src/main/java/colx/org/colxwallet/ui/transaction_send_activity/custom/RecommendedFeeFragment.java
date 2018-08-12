@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import org.colxj.core.Transaction;
+import org.lightpaycashj.core.Transaction;
 
 import colx.org.colxwallet.R;
 import colx.org.colxwallet.ui.base.BaseFragment;

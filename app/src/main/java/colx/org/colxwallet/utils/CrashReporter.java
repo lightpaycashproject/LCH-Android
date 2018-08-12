@@ -14,9 +14,9 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.base.Throwables;
 
-import org.colxj.core.Transaction;
-import org.colxj.core.TransactionOutput;
-import org.colxj.wallet.Wallet;
+import org.lightpaycashj.core.Transaction;
+import org.lightpaycashj.core.TransactionOutput;
+import org.lightpaycashj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

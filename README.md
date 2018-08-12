@@ -13,7 +13,7 @@ app: The Android app itself. This is probably what you're searching for.
 
 pivtrumj: Stratum protocol implementation.
 
-colx-core-1.03: colxj.
+colx-core-1.03: lightpaycashj.
 
 You can build all sub-projects at once using Gradle:
 

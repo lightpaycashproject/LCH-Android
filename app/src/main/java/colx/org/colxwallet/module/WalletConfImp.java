@@ -2,8 +2,8 @@ package colx.org.colxwallet.module;
 
 import android.content.SharedPreferences;
 
-import org.colxj.core.Context;
-import org.colxj.core.NetworkParameters;
+import org.lightpaycashj.core.Context;
+import org.lightpaycashj.core.NetworkParameters;
 
 import global.WalletConfiguration;
 import colx.org.colxwallet.utils.Configurations;
