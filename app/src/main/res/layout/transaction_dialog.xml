@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="230 COLX"
+        android:text="230 LCH"
         android:textSize="16sp"
         android:fontFamily="@font/ocraextended"
         />
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="0.0002 COLX"
+            android:text="0.0002 LCH"
             android:textSize="14sp"
             android:fontFamily="@font/ocraextended"
             />

@@ -355,9 +355,9 @@ public class WalletActivity extends BaseDrawerActivity {
 
     private void updateBalance() {
         Coin availableBalance = pivxModule.getAvailableBalanceCoin();
-        txt_value.setText(!availableBalance.isZero()?availableBalance.toFriendlyString():"0 COLX");
+        txt_value.setText(!availableBalance.isZero()?availableBalance.toFriendlyString():"0 LCH");
         Coin unnavailableBalance = pivxModule.getUnnavailableBalanceCoin();
-        txt_unnavailable.setText(!unnavailableBalance.isZero()?unnavailableBalance.toFriendlyString():"0 COLX");
+        txt_unnavailable.setText(!unnavailableBalance.isZero()?unnavailableBalance.toFriendlyString():"0 LCH");
         if (pivxRate == null)
             pivxRate = pivxModule.getRate(pivxApplication.getAppConf().getSelectedRateCoin());
         if (pivxRate!=null) {

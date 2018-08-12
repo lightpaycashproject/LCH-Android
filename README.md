@@ -1,8 +1,8 @@
-# COLX-Wallet
+# LCH-Wallet
 
-![alt text](https://github.com/ColossusCoinXT/COLX-Android/blob/master/banner/Feature%20image.jpg)
+![alt text](https://github.com/ColossusCoinXT/LCH-Android/blob/master/banner/Feature%20image.jpg)
 
-Welcome to the COLX mobile wallet for android!
+Welcome to the LCH mobile wallet for android!
 
 
 

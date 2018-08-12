@@ -92,7 +92,7 @@
                 android:layout_gravity="end"
                 android:gravity="end"
                 android:layout_height="wrap_content"
-                android:text="0.00203 COLX"
+                android:text="0.00203 LCH"
                 android:textColor="#404040"
                 android:textSize="18sp"
                 android:fontFamily="@font/ocraextended"/>

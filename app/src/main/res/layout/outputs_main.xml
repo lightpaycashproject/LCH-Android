@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_total_amount"
             android:textColor = "@color/mainText"
-            android:text="3.13 COLX"
+            android:text="3.13 LCH"
             android:fontFamily="@font/ocraextended"
             />
     </LinearLayout>

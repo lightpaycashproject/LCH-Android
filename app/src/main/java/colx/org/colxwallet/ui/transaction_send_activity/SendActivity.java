@@ -210,7 +210,7 @@ public class SendActivity extends BaseActivity implements View.OnClickListener {
                             valueStr = "0" + valueStr;
                         }
                         BigDecimal result = new BigDecimal(valueStr).divide(pivxRate.getRate(), 6, BigDecimal.ROUND_DOWN);
-                        txtShowPiv.setText(result.toPlainString() + " COLX");
+                        txtShowPiv.setText(result.toPlainString() + " LCH");
                     } else {
                         txtShowPiv.setText("0 " + pivxRate.getCode());
                     }

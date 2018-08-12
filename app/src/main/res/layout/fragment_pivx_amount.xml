@@ -47,7 +47,7 @@
             android:layout_centerHorizontal="true"
             android:fontFamily="@font/ocraextended"
             android:paddingBottom="10dp"
-            android:text="13.135 COLX"
+            android:text="13.135 LCH"
             android:textColor="@color/textColorWhite"
             android:textSize="24sp" />
 
